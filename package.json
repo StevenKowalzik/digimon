@@ -1,0 +1,19 @@
+{
+  "name": "digimon",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "author": "StevenKowalzik <stvnkwlzk@googlemail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "ava": "^2.4.0",
+    "typescript": "^3.7.2",
+    "xo": "^0.25.3"
+  },
+  "dependencies": {
+    "unique-random-array": "^2.0.0"
+  }
+}
